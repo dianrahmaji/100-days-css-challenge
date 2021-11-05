@@ -2,6 +2,10 @@
 /* edit the line if you wanna use other fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
+:root {
+  --box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* use only the available space inside the 400x400 frame */
 .frame {
   position: absolute;
@@ -44,7 +48,7 @@
   background: #fff;
   border-radius: 3px;
   transform: rotate(50deg);
-  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
 }
 
 .number .one-two {
@@ -55,7 +59,7 @@
   height: 100px;
   width: 24px;
   border-radius: 3px;
-  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
 }
 
 .number .zero-one,
@@ -68,7 +72,7 @@
   box-sizing: border-box;
   border-radius: 50%;
   border: 24px solid #fff;
-  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
 }
 
 .number .zero-two {
