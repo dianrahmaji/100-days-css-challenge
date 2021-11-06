@@ -1,4 +1,4 @@
-# 100 Days CSS Challenge Submission
+# 100 Days CSS Challenge Submissions
 
 I created new folder for every submission with day[000 - 100] naming format.
 Every submission mainly has dedicated README file contained:
